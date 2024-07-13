@@ -13,33 +13,33 @@
                 compatible = "zmk,keymap";
 
                 base {bindings = <
-&none  &kp W  &kp E  &kp R  &kp T         &kp Y      &kp U  &kp I      &kp O    &none
-&kp A  &kp S  &kp D  &kp F  &kp G         &kp H      &kp J  &kp K      &kp L    &kp P
-&kp Z  &kp X  &kp C  &kp V  &kp B         &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMI
+ &none &none  &kp W  &kp E  &kp R  &kp T         &kp Y      &kp U  &kp I      &kp O    &none &none 
+ &none &kp A  &kp S  &kp D  &kp F  &kp G         &kp H      &kp J  &kp K      &kp L    &kp P &none 
+ &none &kp Z  &kp X  &kp C  &kp V  &kp B         &kp N      &kp M  &kp COMMA  &kp DOT  &kp SEMI &none 
    &none  &mo 2  &kp SPACE     &kp LSHFT  &mo 1  &none      
                         >;
                 };
                 _num {bindings = <
-&none  &kp N6  &kp N5  &kp N4  &kp ESC     &none   &kp BSLH  &kp STAR   &kp FSLH   &none
-&none  &kp N3  &kp N2  &kp N1  &kp N0      &none   &kp SQT   &kp UNDER  &kp MINUS  &none
-&none  &kp N9  &kp N8  &kp N7  &kp DOT     &none   &kp DQT   &kp EQUAL  &kp PLUS   &mo 3
+ &none &none  &kp N6  &kp N5  &kp N4  &kp ESC     &none   &kp BSLH  &kp STAR   &kp FSLH   &none &none 
+ &none &none  &kp N3  &kp N2  &kp N1  &kp N0      &none   &kp SQT   &kp UNDER  &kp MINUS  &none &none 
+ &none &none  &kp N9  &kp N8  &kp N7  &kp DOT     &none   &kp DQT   &kp EQUAL  &kp PLUS   &mo 3 &none 
    &none   &trans  &trans      &trans  &trans    &none       
                         >;
                 };
 
                 _sym {bindings = <
-&none      &kp TILDE  &kp GRAVE  &kp PIPE   &none      &none   &kp PG_UP  &kp UP    &kp PG_DN  &none
-&kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none      &none   &kp LEFT   &kp DOWN  &kp RIGHT  &none
-&kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none      &none   &kp HOME   &none     &kp END    &none
+ &none &none      &kp TILDE  &kp GRAVE  &kp PIPE   &none      &none   &kp PG_UP  &kp UP    &kp PG_DN  &none &none 
+ &none &kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none      &none   &kp LEFT   &kp DOWN  &kp RIGHT  &none &none 
+ &none &kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none      &none   &kp HOME   &none     &kp END    &none &none 
       &none      &trans     &trans     &trans  &trans     &none    
                         >;
                 };
 
         _fun {
             bindings = <
-&none  &kp F6  &kp F5  &kp F4  &kp F11  &none      &none   &none  &none  &none
-&none  &kp F3  &kp F2  &kp F1  &kp F10  &none      &none   &none  &none  &none
-&none  &kp F9  &kp F8  &kp F7  &kp F12  &none      &none   &none  &none  &none
+ &none &none  &kp F6  &kp F5  &kp F4  &kp F11  &none      &none   &none  &none  &none &none 
+ &none &none  &kp F3  &kp F2  &kp F1  &kp F10  &none      &none   &none  &none  &none &none 
+ &none &none  &kp F9  &kp F8  &kp F7  &kp F12  &none      &none   &none  &none  &none &none 
     &none   &trans  &trans      &trans  &trans  &none   
             >;
         };
