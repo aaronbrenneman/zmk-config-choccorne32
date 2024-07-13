@@ -130,3 +130,39 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - ''
+combos:
+- p: [1, 2]
+  k: TAB
+- p: [40, 43]
+  k: DEL
+- p: [25, 26]
+  k: {t: LCTRL, h: sticky}
+- p: [33, 34]
+  k: ENTER
+- p: [27, 28]
+  k: {t: LGUI, h: sticky}
+- p: [31, 32]
+  k: {t: RALT, h: sticky}
+- p: [10, 9]
+  k: BSPC
+- p: [1, 13]
+  k: '['
+  l: [base, _num]
+- p: [2, 14]
+  k: (
+  l: [base, _num]
+- p: [3, 15]
+  k: '{'
+  l: [base, _num]
+- p: [8, 20]
+  k: '}'
+  l: [base, _num]
+- p: [9, 21]
+  k: )
+  l: [base, _num]
+- p: [10, 22]
+  k: ']'
+  l: [base, _num]
+- p: [1, 12]
+  k: Q
+  l: [base]
