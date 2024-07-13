@@ -1,7 +1,8 @@
 layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
 layers:
-  base: ['', W, E, R, T, Y, U, I, O, '', A, S, D, F, G, H, J, K, L, P, Z, X, C, V, B, N, M, ',', ., ;, '', _sym, SPACE, LSHFT, _num, '']
+  base: ['', '', W, E, R, T, Y, U, I, O, '', '', '', A, S, D, F, G, H, J, K, L, P, '', '', Z, X, C, V, B, N, M, ',', ., ;, '', '', _sym, SPACE, LSHFT, _num, '']
   _num:
+  - ''
   - ''
   - '6'
   - '5'
@@ -11,6 +12,8 @@ layers:
   - \
   - '*'
   - /
+  - ''
+  - ''
   - ''
   - ''
   - '3'
@@ -23,6 +26,8 @@ layers:
   - '-'
   - ''
   - ''
+  - ''
+  - ''
   - '9'
   - '8'
   - '7'
@@ -33,12 +38,14 @@ layers:
   - +
   - _fun
   - ''
+  - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - ''
   _sym:
+  - ''
   - ''
   - '~'
   - '`'
@@ -49,6 +56,8 @@ layers:
   - UP
   - PG DN
   - ''
+  - ''
+  - ''
   - '!'
   - '@'
   - '#'
@@ -58,6 +67,8 @@ layers:
   - LEFT
   - DOWN
   - RIGHT
+  - ''
+  - ''
   - ''
   - '?'
   - ^
@@ -70,6 +81,7 @@ layers:
   - END
   - ''
   - ''
+  - ''
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,10 +89,13 @@ layers:
   - ''
   _fun:
   - ''
+  - ''
   - F6
   - F5
   - F4
   - F11
+  - ''
+  - ''
   - ''
   - ''
   - ''
@@ -97,6 +112,8 @@ layers:
   - ''
   - ''
   - ''
+  - ''
+  - ''
   - F9
   - F8
   - F7
@@ -106,6 +123,7 @@ layers:
   - ''
   - ''
   - {type: held}
+  - ''
   - ''
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
