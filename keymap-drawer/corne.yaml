@@ -1,0 +1,114 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x6_3}
+layers:
+  base: ['', W, E, R, T, Y, U, I, O, '', A, S, D, F, G, H, J, K, L, P, Z, X, C, V, B, N, M, ',', ., ;, '', _sym, SPACE, LSHFT, _num, '']
+  _num:
+  - ''
+  - '6'
+  - '5'
+  - '4'
+  - ESC
+  - ''
+  - \
+  - '*'
+  - /
+  - ''
+  - ''
+  - '3'
+  - '2'
+  - '1'
+  - '0'
+  - ''
+  - ''''
+  - _
+  - '-'
+  - ''
+  - ''
+  - '9'
+  - '8'
+  - '7'
+  - .
+  - ''
+  - '"'
+  - '='
+  - +
+  - _fun
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
+  _sym:
+  - ''
+  - '~'
+  - '`'
+  - '|'
+  - ''
+  - ''
+  - PG UP
+  - UP
+  - PG DN
+  - ''
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - ''
+  - ''
+  - LEFT
+  - DOWN
+  - RIGHT
+  - ''
+  - '?'
+  - ^
+  - '&'
+  - '%'
+  - ''
+  - ''
+  - HOME
+  - ''
+  - END
+  - ''
+  - ''
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ''
+  _fun:
+  - ''
+  - F6
+  - F5
+  - F4
+  - F11
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F3
+  - F2
+  - F1
+  - F10
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - F9
+  - F8
+  - F7
+  - F12
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - ''
