@@ -133,7 +133,7 @@ layers:
 combos:
 - p: [1, 2]
   k: TAB
-- p: [40, 43]
+- p: [43, 38, 39]
   k: DEL
 - p: [25, 26]
   k: {t: LCTRL, h: sticky}
