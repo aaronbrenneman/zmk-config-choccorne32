@@ -193,7 +193,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-       /* font-size: 24px; */
+
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
@@ -215,14 +215,7 @@ draw_config:
         line-height: 1;
     }
 
-    /* Layer labels */
-    text.label {
-        font-weight: bold;
-        text-anchor: start;
-        paint-order: stroke;
-        fill: var(--color--layer--text);
-        dominant-baseline: text-before-edge;
-    }
+
 
 
     /* Keys */
@@ -286,10 +279,7 @@ draw_config:
     .trans {
       opacity: 0.4;
     },
-    .none,
-    .ghost {
-      opacity: 0.4;
-    }
+    .none
     .trans {
         --color--key--bg: var(--color--trans--bg);
         --color--key--border: var(--color--trans--border);
@@ -303,13 +293,6 @@ draw_config:
         --color--key--text--tap: var(--color--none--text--tap);
         --color--key--text--shifted: var(--color--none--text--shifted);
         --color--key--text--hold: var(--color--none--text--hold);
-    }
-    .ghost {
-        --color--key--bg: var(--color--ghost--bg);
-        --color--key--border: var(--color--ghost--border);
-        --color--key--text--tap: var(--color--ghost--text--tap);
-        --color--key--text--shifted: var(--color--ghost--text--shifted);
-        --color--key--text--hold: var(--color--ghost--text--hold);
     }
 
 parse_config:
