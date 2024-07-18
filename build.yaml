@@ -19,7 +19,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: corne_left_bank
+    shield: corne_left
+    artifact-name: sinister
   - board: nice_nano_v2
     shield: corne_right
-    artifact-name: corne_right_on
+    artifact-name: auspicious
