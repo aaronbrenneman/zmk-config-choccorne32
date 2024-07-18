@@ -12,7 +12,7 @@
 
         cb_del {
             bindings = <&kp DEL>;
-            key-positions = <43 38 39>;
+            key-positions = <38 39>;
         };
 
         cb_cntl {
