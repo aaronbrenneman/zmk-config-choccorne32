@@ -50,16 +50,12 @@
 </svg>
 </defs>/* end glyphs */
 <style>.trans {
-    --color--key--bg: rgb(255, 253, 231);
-    --color--key--border: rgb(255, 263, 221);
-    --color--key--text--tap: rgb(255, 253, 261);
+    --color--key--bg: rgb(155, 253, 231);
+    --color--key--border: rgb(155, 263, 221);
+    --color--key--text--tap: rgb(155, 253, 261);
     --color--key--text--shifted: rgb(255, 245, 157);
     --color--key--text--hold: rgb(255, 241, 118);
 }
-        --color--material--yellow--50: ;
-    --color--material--yellow--100: rgb(255, 253, 231);
-    --color--material--yellow--200: ;
-    --color--material--yellow--300: ;
 .combo.tap {
     font-size: 16px;
 }
