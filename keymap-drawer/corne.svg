@@ -49,13 +49,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-star-three-points" viewBox="0 0 24 24"><path d="M12,2.6L9,12.4L2,19.9L12,17.6L22,20L15,12.5L12,2.6Z" /></svg>
 </svg>
 </defs>/* end glyphs */
-<style>.trans {
-    --color--key--bg: rgb(155, 253, 231);
-    --color--key--border: rgb(155, 263, 221);
-    --color--key--text--tap: rgb(155, 253, 261);
-    --color--key--text--shifted: rgb(255, 245, 157);
-    --color--key--text--hold: rgb(255, 241, 118);
-}
+<style># .trans {
+#     --color--key--bg: rgb(155, 253, 231);
+#     --color--key--border: rgb(155, 263, 221);
+#     --color--key--text--tap: rgb(155, 253, 261);
+#     --color--key--text--shifted: rgb(255, 245, 157);
+#     --color--key--text--hold: rgb(255, 241, 118);
+# }
 .combo.tap {
     font-size: 16px;
 }
