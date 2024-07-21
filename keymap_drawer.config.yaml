@@ -14,7 +14,7 @@ draw_config:
   
   # Custom CSS
   svg_style: |
-    .none {
+    .none .none {
       fill: #000000;
       }
     .combo.tap {
