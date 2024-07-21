@@ -34,14 +34,14 @@ layers:
   - N
   - M
   - COMMA
-  - DOT
+  - $$mdi:star-three-points$$
   - SEMI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _sym
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
-  - {h: '$$mdi:gesture-tap-hold$$', s: '$$mdi:alpha-w-box$$'}
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _num:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -73,7 +73,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - DOT
+  - $$mdi:star-three-points$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - DQT
   - EQUAL
