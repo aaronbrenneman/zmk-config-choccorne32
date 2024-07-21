@@ -33,9 +33,9 @@ layers:
   - B
   - N
   - M
-  - COMMA
-  - $$mdi:star-three-points$$
-  - SEMI
+  - ','
+  - .
+  - ;
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _sym
@@ -51,9 +51,9 @@ layers:
   - '4'
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - BSLH
-  - STAR
-  - FSLH
+  - \
+  - '*'
+  - /
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -63,9 +63,9 @@ layers:
   - '1'
   - '0'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - SQT
-  - UNDER
-  - MINUS
+  - ''''
+  - _
+  - '-'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -73,11 +73,11 @@ layers:
   - '9'
   - '8'
   - '7'
-  - $$mdi:star-three-points$$
+  - .
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - DQT
-  - EQUAL
-  - PLUS
+  - '"'
+  - '='
+  - +
   - _fun
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -89,9 +89,9 @@ layers:
   _sym:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - TILDE
-  - GRAVE
-  - PIPE
+  - '~'
+  - '`'
+  - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG UP
@@ -100,10 +100,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - EXCL
-  - AT
+  - '!'
+  - '@'
   - POUND
-  - DLLR
+  - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-left-bold$$
@@ -112,10 +112,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - QMARK
-  - CARET
-  - AMPS
-  - PRCNT
+  - '?'
+  - ^
+  - '&'
+  - '%'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
@@ -180,30 +180,30 @@ combos:
 - p: [25, 26]
   k: {t: '$$mdi:apple-keyboard-control$$', h: sticky}
 - p: [33, 34]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
+  k: $$mdi:keyboard-return$$
 - p: [27, 28]
   k: {t: LGUI, h: sticky}
 - p: [31, 32]
   k: {t: '$$mdi:apple-keyboard-option$$', h: sticky}
 - p: [10, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
+  k: $$mdi:backspace$$
 - p: [1, 13]
-  k: LBKT
+  k: '{'
   l: [base, _num]
 - p: [2, 14]
-  k: LPAR
+  k: (
   l: [base, _num]
 - p: [3, 15]
-  k: LBRC
+  k: '{'
   l: [base, _num]
 - p: [8, 20]
-  k: RBRC
+  k: '}'
   l: [base, _num]
 - p: [9, 21]
-  k: RPAR
+  k: )
   l: [base, _num]
 - p: [10, 22]
-  k: RBKT
+  k: '}'
   l: [base, _num]
 - p: [1, 12]
   k: Q
