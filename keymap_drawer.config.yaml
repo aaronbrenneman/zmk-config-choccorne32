@@ -20,7 +20,18 @@ parse_config:
     "&none":
       tap: $$mdi:minus-circle-outline$$
       type: none
+      
+  # Glyphs dimensions
+  glyph_tap_size: 26
+  glyph_hold_size: 18
+  glyph_shifted_size: 18
 
+  # Custom CSS
+  svg_style: |
+    .none {
+      fill: #000000;
+    }
+    
   # ZMK
   zmk_keycode_map:
     # Symbols
