@@ -7,6 +7,18 @@ draw_config:
   # as it reads on the tin can, this comment is here for consistency
   append_colon_to_layer_header: false
 
+  # Glyphs dimensions
+  glyph_tap_size: 26
+  glyph_hold_size: 18
+  glyph_shifted_size: 18
+
+  # Custom CSS
+  svg_style: |
+    .none {
+      fill: #000000;
+    }
+
+
 parse_config:
   raw_binding_map:
     # Layers
@@ -72,7 +84,7 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
     # "Meh" key
-    LS(LC(LALT)): $$mdi:star-three-points$$
+    DOT: $$mdi:star-three-points$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
