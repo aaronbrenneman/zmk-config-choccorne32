@@ -34,7 +34,7 @@ layers:
   - N
   - M
   - ','
-  - .
+  - $$mdi:star-three-points$$
   - ;
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -73,7 +73,7 @@ layers:
   - '9'
   - '8'
   - '7'
-  - .
+  - $$mdi:star-three-points$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '"'
   - '='
