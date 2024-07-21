@@ -1,8 +1,8 @@
 draw_config:
 
   # combo box dimensions
-  combo_w: 36
-  combo_h: 36
+  combo_w: 30
+  combo_h: 30
 
   # as it reads on the tin can, this comment is here for consistency
   append_colon_to_layer_header: false
@@ -10,15 +10,11 @@ draw_config:
 parse_config:
   raw_binding_map:
     # Layers
-    "&mo 1":
-      shifted: $$mdi:alpha-w-box$$
-      hold: $$mdi:gesture-tap-hold$$
+    "&mo 1": $$mdi:alpha-w-box$$
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
-    "&kp RSHIFT":
-      tap: $$mdi:apple-keyboard-shift$$
-      hold: $$mdi:toggle-switch$$
+    "&kp RSHIFT": $$mdi:apple-keyboard-shift$$
 
     # Empty
     "&none":
@@ -39,7 +35,7 @@ parse_config:
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
     # "Meh" key
-    LS(LC(LALT)): $$mdi:star-three-points$$
+    DOT: $$mdi:star-three-points$$
 
     # Arrows
     UP: $$mdi:arrow-up-bold$$
