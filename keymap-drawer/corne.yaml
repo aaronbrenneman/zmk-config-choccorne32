@@ -33,64 +33,64 @@ layers:
   - B
   - N
   - M
-  - ','
-  - $$mdi:star-three-points$$
-  - ;
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - _sym
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:alpha-w-box$$
+  - _num
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _num:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '6'
-  - '5'
-  - '4'
+  - {t: '6', s: ^}
+  - {t: '5', s: '%'}
+  - {t: '4', s: $}
   - $$mdi:keyboard-esc$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - \
+  - {t: \, s: '|'}
   - '*'
-  - /
+  - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '3'
-  - '2'
-  - '1'
-  - '0'
+  - {t: '3', s: '#'}
+  - {t: '2', s: '@'}
+  - {t: '1', s: '!'}
+  - {t: '0', s: )}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - ''''
+  - {t: '''', s: '"'}
   - _
-  - '-'
+  - {t: '-', s: _}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '9'
-  - '8'
-  - '7'
-  - $$mdi:star-three-points$$
+  - {t: '9', s: (}
+  - {t: '8', s: '*'}
+  - {t: '7', s: '&'}
+  - {t: ., s: '>'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '"'
-  - '='
+  - {t: '=', s: +}
   - +
   - _fun
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _sym:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '~'
-  - '`'
+  - {t: '`', s: '~'}
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '!'
   - '@'
-  - POUND
+  - '#'
   - $
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -125,9 +125,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   _fun:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -167,10 +167,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [1, 2]
@@ -178,17 +178,17 @@ combos:
 - p: [38, 39]
   k: $$mdi:backspace-reverse-outline$$
 - p: [25, 26]
-  k: {t: '$$mdi:apple-keyboard-control$$', h: sticky}
+  k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [33, 34]
-  k: $$mdi:keyboard-return$$
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [27, 28]
-  k: {t: LGUI, h: sticky}
+  k: {t: LGUI, h: '$$mdi:gesture-tap-hold$$'}
 - p: [31, 32]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: sticky}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [10, 9]
-  k: $$mdi:backspace$$
+  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [1, 13]
-  k: '{'
+  k: '['
   l: [base, _num]
 - p: [2, 14]
   k: (
@@ -203,7 +203,7 @@ combos:
   k: )
   l: [base, _num]
 - p: [10, 22]
-  k: '}'
+  k: ']'
   l: [base, _num]
 - p: [1, 12]
   k: Q
