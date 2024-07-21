@@ -210,7 +210,7 @@ svg.keymap {
     --color--combo--text--hold: var(--color--combo--text--tap);
 
     --color--trans--bg: transparent;
-    --color--trans--border: var(--color--material--blue-gray--400);
+    --color--trans--border: var( --color--material--purple--800);
     --color--trans--text--tap: var(--color--trans--border);
     --color--trans--text--shifted: var(--color--trans--text--tap);
     --color--trans--text--hold: var(--color--trans--text--tap);
