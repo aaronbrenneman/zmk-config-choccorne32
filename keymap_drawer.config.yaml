@@ -185,7 +185,7 @@ draw_config:
         --color--turquoise--500: rgb(51, 204, 204);
 
         --color--bg: transparent;
-        --color--text: var(--color--material--blue-gray--900);
+        --color--text: var(--color--material--teal--a200);
 
         --color--layer--text: var(--color--material--blue-gray--400);
 
@@ -318,7 +318,9 @@ draw_config:
      * Transparent, None, and Ghost Keys
      */
     .trans,
-    .none,
+    .none {
+      opacity: 0.1;
+    },
     .ghost {
       opacity: 0.4;
     }
