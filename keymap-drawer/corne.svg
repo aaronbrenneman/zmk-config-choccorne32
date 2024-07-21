@@ -161,6 +161,20 @@ path.combo {
     visibility: hidden;
 }
 /* End Tabler Icons Cleanup */
+
+/* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
+
+svg.keymap {
+  font-family: Ubuntu Mono, Inconsolata, Consolas, Liberation Mono, Menlo, monospace;
+  font-size: 12px;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
+/* Color accent for held keys */
+rect.held, rect.combo.held {
+    fill: #ffc;
+}    
 </style>
 <g transform="translate(30, 0)" class="layer-base">
 <text x="0" y="28" class="label">base</text>
