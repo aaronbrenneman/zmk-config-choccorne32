@@ -14,8 +14,8 @@ draw_config:
 
   # Custom CSS
   svg_style: |
-    .none .none {
-      fill: #000000;
+    .combo.tap {
+        font-size: 36px;
     }
 
 
