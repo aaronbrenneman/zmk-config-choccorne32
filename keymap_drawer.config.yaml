@@ -12,13 +12,6 @@ draw_config:
   glyph_hold_size: 18
   glyph_shifted_size: 18
 
-  # Custom CSS
-  svg_style: |
-    .combo.tap {
-        font-size: 36px;
-    }
-
-
 parse_config:
   raw_binding_map:
     # Layers
