@@ -94,9 +94,9 @@ layers:
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PG UP
+  - $$mdi:page-first$$
   - $$mdi:arrow-up-bold$$
-  - PG DN
+  - $$mdi:page-last$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -118,9 +118,9 @@ layers:
   - '%'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - HOME
+  - $$mdi:chevron-triple-left$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - END
+  - $$mdi:chevron-triple-right$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
