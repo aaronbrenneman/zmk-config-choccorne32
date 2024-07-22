@@ -94,9 +94,9 @@ layers:
   - '|'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - PG UP
+  - $$mdi:page-first$$
   - $$mdi:arrow-up-bold$$
-  - PG DN
+  - $$mdi:page-last$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
