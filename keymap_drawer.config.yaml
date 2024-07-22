@@ -1,7 +1,7 @@
 draw_config:
   # key dimensions, non-ortho layouts use key_h for width as well
   # key_w: 100 # This doesn't seem to do anything? 🤔
-  key_h: 80
+  key_h: 58
 
   # keys border radius
   key_rx: 4
@@ -11,19 +11,19 @@ draw_config:
   line_spacing: 1
 
   # combo box dimensions
-  combo_w: 36
-  combo_h: 36
+  combo_w: 25
+  combo_h: 38
 
   # padding from the edge of cap to top and bottom legends
   small_pad: 4
 
   # Padding between keys
-  inner_pad_w: 1.5
-  inner_pad_h: 1.5
+  inner_pad_w: 1.85
+  inner_pad_h: 1.85
 
   # padding between layers
-  outer_pad_w: 0
-  outer_pad_h: 0
+  outer_pad_w: 27
+  outer_pad_h: 35
 
   # gap between two halves for ortho layout generator
   # split_gap: 20 # This doesn't seem to have any effect either? 🤔
@@ -36,9 +36,9 @@ draw_config:
   shrink_wide_legends: 5
 
   # Glyphs dimensions
-  glyph_tap_size: 19
+  glyph_tap_size: 18
   glyph_hold_size: 18
-  glyph_shifted_size: 18
+  glyph_shifted_size: 1
 
   # Custom CSS
   svg_style: |
@@ -192,7 +192,8 @@ draw_config:
         --color--key--bg: var(--color--material--blue-gray--50);
         --color--key--border: white;
         --color--key--text--tap: var(--color--text);
-        --color--key--text--shifted: var(--color--material--blue-gray--500);
+        #--color--key--text--shifted: var(--color--material--blue-gray--500);
+        --color--key--text--shifted: transparent;
         --color--key--text--hold: var(--color--material--blue-gray--500);
 
         --color--combo--bg: var(--color--material--blue-gray--100);
@@ -203,7 +204,7 @@ draw_config:
         --color--combo--text--hold: var(--color--combo--text--tap);
 
         --color--trans--bg: transparent;
-        --color--trans--border: var(--color--material--teal--a200);
+        --color--trans--border: var(--color--trans--bg);
         --color--trans--text--tap: var(--color--trans--border);
         --color--trans--text--shifted: var(--color--trans--text--tap);
         --color--trans--text--hold: var(--color--trans--text--tap);
@@ -227,7 +228,7 @@ draw_config:
          */
 
         font-family: REM,SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
-        font-size: 24px;
+        font-size: 18px;
         font-kerning: normal;
         text-rendering: optimizeLegibility;
         fill: var(--color--text);
@@ -287,7 +288,7 @@ draw_config:
      * Combos
      */
     .combo {
-        --color--key--bg: var(--color--combo--bg);
+        --color--key--bg: var(--color--material--purple--100);
         --color--key--border: var(--color--combo--border);
         --color--key--text--tap: var(--color--combo--text--tap);
         --color--key--text--shifted: var(--color--combo--text--shifted);
@@ -303,21 +304,23 @@ draw_config:
         fill: none;
     }
     .combo.tap {
-        font-size: 16px;
+        font-size: 12px;
     }
     .combo.shifted {
         font-size: 13px;
         translate: -9px -2px;
     }
     .combo.hold {
-        font-size: 16px;
+        font-size: 15px;
         /* translate: 2px 0px; */
     }
 
     /*
      * Transparent, None, and Ghost Keys
      */
-    .trans,
+    .trans{
+      opacity: 0.91;
+    },
     .none {
       opacity: 0.1;
     },
@@ -325,18 +328,18 @@ draw_config:
       opacity: 0.4;
     }
     .trans {
-        --color--key--bg: var(--color--trans--bg);
-        --color--key--border: var(--color--trans--border);
-        --color--key--text--tap: var(--color--trans--text--tap);
+        --color--key--bg: var(--color--material--purple--900);
+        --color--key--border: var(--color--material--purple--100);
+        --color--key--text--tap: var(--color--material--purple--50);
         --color--key--text--shifted: var(--color--trans--text--shifted);
         --color--key--text--hold: var(--color--trans--text--hold);
     }
     .none {
         --color--key--bg: var(--color--none--bg);
-        --color--key--border: var(--color--none--border);
-        --color--key--text--tap: var(--color--none--text--tap);
-        --color--key--text--shifted: var(--color--none--text--shifted);
-        --color--key--text--hold: var(--color--none--text--hold);
+        --color--key--border: transparent;
+        --color--key--text--tap: transparent;
+        --color--key--text--shifted: transparent;
+        --color--key--text--hold: transparent;
     }
     .ghost {
         --color--key--bg: var(--color--ghost--bg);
@@ -345,7 +348,6 @@ draw_config:
         --color--key--text--shifted: var(--color--ghost--text--shifted);
         --color--key--text--hold: var(--color--ghost--text--hold);
     }
-
 
     /*
      * Overrides
@@ -358,35 +360,6 @@ draw_config:
     }
     .hold.mdi\:bluetooth {
       translate: 25px -25px;
-    }
-
-    /* Outer column + thumb keys */
-    .keypos-0,
-    .keypos-11,
-    .keypos-12,
-    .keypos-23,
-    .keypos-24,
-    .keypos-35,
-    .keypos-36,
-    .keypos-37,
-    .keypos-38,
-    .keypos-39,
-    .keypos-40,
-    .keypos-41 {
-        --color--key--bg: var(--color--material--blue-gray--100);
-        --color--key--border: var(--color--material--blue-gray--50);
-    }
-
-    .keypos-12 {
-        --color--key--bg: var(--color--material--red--300);
-        --color--key--border: var(--color--material--red--200);
-        --color--key--text--shifted: var(--color--key--text--tap);
-        --color--key--text--hold: var(--color--key--text--tap);
-    }
-
-    .keypos-23 {
-        --color--key--bg: var(--color--material--teal--200);
-        --color--key--border: var(--color--material--teal--100);
     }
 
 parse_config:
@@ -610,6 +583,7 @@ parse_config:
     RSHIFT: $$mdi:apple-keyboard-shift$$
     RSHFT: $$mdi:apple-keyboard-shift$$
     RCMD: $$mdi:apple-keyboard-command$$
+    LGUI: $$mdi:apple-keyboard-command$$
     # "Meh" key
     LS(LC(LALT)): $$mdi:star-three-points$$
 
@@ -672,16 +646,23 @@ parse_config:
       hold: zoom
 
   zmk_combos:
-    combo_to_2:
-      align: top
-    combo_to_3:
-      align: top
-    combo_bt_clear:
-      align: top
-      offset: 0.03
-    combo_mute:
-      align: top
-      offset: 0.15
+    cb_gui:
+      align: bottom
+     # o: 2.12  
+      arc_scale: 2.03
+    cb_alt:
+      align: bottom
+      arc_scale: 2.03
+    cb_q:
+      align: top      
+    #  arc_scale: 2.03
+   #   offset: 0.04
+     #cb_shftl:
+     # align: top
+   #   offset: 0.15
+   # cb_shftr:
+    #  align: top
+   #   offset: 0.15
     combo_minus:
       key:
         shifted: "_"
