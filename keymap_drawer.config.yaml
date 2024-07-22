@@ -592,8 +592,8 @@ parse_config:
     DOWN: $$mdi:arrow-down-bold$$
     LEFT: $$mdi:arrow-left-bold$$
     RIGHT: $$mdi:arrow-right-bold$$
-    PG_UP: $$mdi:page-first$$
-    PG_DN: $$mdi:page-last$$
+    PG_UP: $$mdi:arrow-collapse-left$$
+    PG_DN: $$mdi:arrow-collapse-right$$
     HOME: $$mdi:chevron-triple-left$$
     END: $$mdi:chevron-triple-right$$
 
