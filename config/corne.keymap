@@ -7,7 +7,7 @@
 
         cb_tab {
             bindings = <&kp TAB>;
-            key-positions = <1 2>;
+            key-positions = <2 3>;
         };
 
         cb_del {
@@ -17,69 +17,64 @@
 
         cb_cntl {
             bindings = <&sk LCTRL>;
-            key-positions = <25 26>;
-        };
-
-        cb_enter {
-            bindings = <&kp ENTER>;
-            key-positions = <33 34>;
+            key-positions = <26 27>;
         };
 
         cb_gui {
             bindings = <&sk LGUI>;
-            key-positions = <27 28>;
+            key-positions = <38 37>;
         };
 
         cb_alt {
             bindings = <&sk RALT>;
-            key-positions = <31 32>;
+            key-positions = <40 39>;
         };
 
         cb_bkspc {
             bindings = <&kp BSPC>;
-            key-positions = <10 9>;
+            key-positions = <9 8>;
         };
 
         cb_lbkt {
             bindings = <&kp LBKT>;
             layers = <0 1>;
-            key-positions = <1 13>;
+            key-positions = <2 14>;
         };
 
         cb_lpara {
             bindings = <&kp LPAR>;
             layers = <0 1>;
-            key-positions = <2 14>;
+            key-positions = <3 15>;
         };
 
         cb_lbrc {
             bindings = <&kp LBRC>;
             layers = <0 1>;
-            key-positions = <3 15>;
+            key-positions = <4 16>;
         };
 
         cb_rbkt {
             bindings = <&kp RBRC>;
             layers = <0 1>;
-            key-positions = <8 20>;
+            key-positions = <7 19>;
         };
 
         cb_rpara {
             bindings = <&kp RPAR>;
             layers = <0 1>;
-            key-positions = <9 21>;
+            key-positions = <8 20>;
         };
 
         cb_rbrc {
             bindings = <&kp RBKT>;
             layers = <0 1>;
-            key-positions = <10 22>;
+            key-positions = <9 21>;
         };
 
         cb_q {
             bindings = <&kp Q>;
             layers = <0>;
-            key-positions = <1 12>;
+            key-positions = <13 22>;
         };
     };
 
