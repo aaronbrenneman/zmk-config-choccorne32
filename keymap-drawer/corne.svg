@@ -1,4 +1,4 @@
-<svg width="924" height="1358" viewBox="0 0 924 1358" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="924" height="1416" viewBox="0 0 924 1416" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-command">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-command" viewBox="0 0 24 24"><path d="M6,2A4,4 0 0,1 10,6V8H14V6A4,4 0 0,1 18,2A4,4 0 0,1 22,6A4,4 0 0,1 18,10H16V14H18A4,4 0 0,1 22,18A4,4 0 0,1 18,22A4,4 0 0,1 14,18V16H10V18A4,4 0 0,1 6,22A4,4 0 0,1 2,18A4,4 0 0,1 6,14H8V10H6A4,4 0 0,1 2,6A4,4 0 0,1 6,2M16,18A2,2 0 0,0 18,20A2,2 0 0,0 20,18A2,2 0 0,0 18,16H16V18M14,10H10V14H14V10M6,16A2,2 0 0,0 4,18A2,2 0 0,0 6,20A2,2 0 0,0 8,18V16H6M8,6A2,2 0 0,0 6,4A2,2 0 0,0 4,6A2,2 0 0,0 6,8H8V6M18,8A2,2 0 0,0 20,6A2,2 0 0,0 18,4A2,2 0 0,0 16,6V8H18Z" /></svg>
@@ -383,7 +383,7 @@ path.combo {
 </style>
 <g transform="translate(27, 0)" class="layer-base">
 <text x="0" y="18" class="label">base</text>
-<g transform="translate(0, 35)">
+<g transform="translate(0, 93)">
 <g transform="translate(29, 51)" class="key none keypos-0">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-9" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
@@ -613,14 +613,14 @@ path.combo {
 <text x="725" y="65" class="combo tap">]</text>
 </g>
 <g class="combo combopos-12">
-<path d="M435,79 h-342 a6.0,6.0 0 0 0 -6.0,6.0 v5" class="combo"/>
-<path d="M435,79 h342 a6.0,6.0 0 0 1 6.0,6.0 v5" class="combo"/>
-<rect rx="4" ry="4" x="422" y="60" width="25" height="38" class="combo"/>
-<text x="435" y="79" class="combo tap">Q</text>
+<path d="M435,-39 h-700 a6.0,6.0 0 0 0 -6.0,6.0 v123" class="combo"/>
+<path d="M435,-39 h700 a6.0,6.0 0 0 1 6.0,6.0 v123" class="combo"/>
+<rect rx="4" ry="4" x="422" y="-58" width="25" height="38" class="combo"/>
+<text x="435" y="-39" class="combo tap">Q</text>
 </g>
 </g>
 </g>
-<g transform="translate(27, 331)" class="layer-_num">
+<g transform="translate(27, 389)" class="layer-_num">
 <text x="0" y="18" class="label">_num</text>
 <g transform="translate(0, 35)">
 <g transform="translate(29, 51)" class="key none keypos-0">
@@ -865,7 +865,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(27, 661)" class="layer-_sym">
+<g transform="translate(27, 720)" class="layer-_sym">
 <text x="0" y="18" class="label">_sym</text>
 <g transform="translate(0, 35)">
 <g transform="translate(29, 51)" class="key none keypos-0">
@@ -1071,7 +1071,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(27, 992)" class="layer-_fun">
+<g transform="translate(27, 1051)" class="layer-_fun">
 <text x="0" y="18" class="label">_fun</text>
 <g transform="translate(0, 35)">
 <g transform="translate(29, 51)" class="key none keypos-0">

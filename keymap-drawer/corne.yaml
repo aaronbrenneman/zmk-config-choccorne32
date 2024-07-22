@@ -211,3 +211,5 @@ combos:
   k: Q
   l: [base]
   a: top
+  o: 2.04
+  arc_scale: 2.03
