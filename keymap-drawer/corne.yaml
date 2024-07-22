@@ -173,43 +173,41 @@ layers:
   - {type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [1, 2]
+- p: [2, 3]
   k: $$mdi:keyboard-tab$$
 - p: [38, 39]
   k: $$mdi:backspace-reverse-outline$$
-- p: [25, 26]
+- p: [26, 27]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [33, 34]
-  k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [27, 28]
+- p: [38, 37]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [31, 32]
+- p: [40, 39]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [10, 9]
+- p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [1, 13]
+- p: [2, 14]
   k: '['
   l: [base, _num]
-- p: [2, 14]
+- p: [3, 15]
   k: (
   l: [base, _num]
-- p: [3, 15]
+- p: [4, 16]
   k: '{'
   l: [base, _num]
-- p: [8, 20]
+- p: [7, 19]
   k: '}'
   l: [base, _num]
-- p: [9, 21]
+- p: [8, 20]
   k: )
   l: [base, _num]
-- p: [10, 22]
+- p: [9, 21]
   k: ']'
   l: [base, _num]
-- p: [1, 12]
+- p: [13, 22]
   k: Q
   l: [base]
   a: top
