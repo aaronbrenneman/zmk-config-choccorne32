@@ -659,9 +659,6 @@ parse_config:
     cb_q:
       align: top      
       offset: 1.04
-    cb_del:
-      align: middle
-   #   offset: 0.15
    # cb_shftr:
     #  align: top
    #   offset: 0.15
