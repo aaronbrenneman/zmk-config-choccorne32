@@ -654,13 +654,13 @@ parse_config:
      # o: 2.12  
       arc_scale: 2.03
     cb_alt:
-      align: bottom
+      align: top
       arc_scale: 2.03
     cb_q:
       align: top      
       offset: 1.04
-     #cb_shftl:
-     # align: top
+    cb_del:
+      align: top
    #   offset: 0.15
    # cb_shftr:
     #  align: top
