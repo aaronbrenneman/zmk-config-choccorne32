@@ -181,7 +181,7 @@ combos:
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [38, 37]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
-  a: bottom
+  a: top
   arc_scale: 2.03
 - p: [40, 39]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}

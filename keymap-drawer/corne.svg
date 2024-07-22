@@ -571,11 +571,11 @@ path.combo {
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="165" y="146" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-3">
-<path d="M330,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
-<path d="M330,277 h-63 a6.0,6.0 0 0 1 -6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="317" y="258" width="25" height="38" class="combo"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="268" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="274" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<path d="M330,188 h63 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<path d="M330,188 h-63 a6.0,6.0 0 0 0 -6.0,6.0 v7" class="combo"/>
+<rect rx="4" ry="4" x="317" y="169" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="179" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="185" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-4">
 <path d="M540,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
@@ -822,11 +822,11 @@ path.combo {
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="165" y="146" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-3">
-<path d="M330,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
-<path d="M330,277 h-63 a6.0,6.0 0 0 1 -6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="317" y="258" width="25" height="38" class="combo"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="268" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="274" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<path d="M330,188 h63 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<path d="M330,188 h-63 a6.0,6.0 0 0 0 -6.0,6.0 v7" class="combo"/>
+<rect rx="4" ry="4" x="317" y="169" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="179" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="185" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-4">
 <path d="M540,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
@@ -1052,11 +1052,11 @@ path.combo {
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="165" y="146" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-3">
-<path d="M330,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
-<path d="M330,277 h-63 a6.0,6.0 0 0 1 -6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="317" y="258" width="25" height="38" class="combo"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="268" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="274" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<path d="M330,188 h63 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<path d="M330,188 h-63 a6.0,6.0 0 0 0 -6.0,6.0 v7" class="combo"/>
+<rect rx="4" ry="4" x="317" y="169" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="179" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="185" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-4">
 <path d="M540,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
@@ -1256,11 +1256,11 @@ path.combo {
 <use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="165" y="146" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-3">
-<path d="M330,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-9" class="combo"/>
-<path d="M330,277 h-63 a6.0,6.0 0 0 1 -6.0,-6.0 v-31" class="combo"/>
-<rect rx="4" ry="4" x="317" y="258" width="25" height="38" class="combo"/>
-<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="268" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
-<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="274" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+<path d="M330,188 h63 a6.0,6.0 0 0 1 6.0,6.0 v9" class="combo"/>
+<path d="M330,188 h-63 a6.0,6.0 0 0 0 -6.0,6.0 v7" class="combo"/>
+<rect rx="4" ry="4" x="317" y="169" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-command" xlink:href="#mdi:apple-keyboard-command" x="321" y="179" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-command"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="321" y="185" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
 </g>
 <g class="combo combopos-4">
 <path d="M540,277 h63 a6.0,6.0 0 0 0 6.0,-6.0 v-31" class="combo"/>
