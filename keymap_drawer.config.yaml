@@ -660,7 +660,7 @@ parse_config:
       align: top      
       offset: 1.04
     cb_del:
-      align: top
+      align: middle
    #   offset: 0.15
    # cb_shftr:
     #  align: top
