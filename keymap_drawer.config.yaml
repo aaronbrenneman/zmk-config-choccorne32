@@ -505,7 +505,6 @@ parse_config:
     APOS: .
     DOUBLE_QUOTES: '"'
     DQT: '"'
-
     LESS_THAN: <
     LT: <
     DOT:
