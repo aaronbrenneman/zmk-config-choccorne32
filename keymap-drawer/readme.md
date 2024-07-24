@@ -1,1 +1,1 @@
-![planck image](keymap-drawer/corne.svg)
+![planck image](corne.svg)
