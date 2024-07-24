@@ -9,6 +9,9 @@
 <svg id="mdi:apple-keyboard-option">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-option" viewBox="0 0 24 24"><path d="M3,4H9.11L16.15,18H21V20H14.88L7.84,6H3V4M14,4H21V6H14V4Z" /></svg>
 </svg>
+<svg id="mdi:apple-keyboard-shift">
+<svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-shift" viewBox="0 0 24 24"><path d="M15,18V12H17.17L12,6.83L6.83,12H9V18H15M12,4L22,14H17V20H7V14H2L12,4Z" /></svg>
+</svg>
 <svg id="mdi:arrow-down-bold">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-arrow-down-bold" viewBox="0 0 24 24"><path d="M9,4H15V12H19.84L12,19.84L4.16,12H9V4Z" /></svg>
 </svg>
@@ -490,6 +493,23 @@ path.combo {
 <rect rx="4" ry="4" x="74" y="54" width="25" height="38" class="combo"/>
 <text x="86" y="72" class="combo tap">Q</text>
 </g>
+<g class="combo combopos-13">
+<rect rx="4" ry="4" x="104" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="107" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+</g>
+<g class="combo combopos-14">
+<rect rx="4" ry="4" x="742" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="745" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="745" y="156" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-15">
+<path d="M435,102 l-97,0" class="combo"/>
+<path d="M435,102 l97,0" class="combo"/>
+<rect rx="4" ry="4" x="422" y="82" width="25" height="38" class="combo"/>
+<text x="435" y="102" class="combo tap">
+<tspan x="435" dy="-0.5em">Alt+</tspan><tspan x="435" dy="1.0em">F4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(27, 331)" class="layer-_num">
@@ -735,6 +755,23 @@ path.combo {
 <rect rx="4" ry="4" x="712" y="46" width="25" height="38" class="combo"/>
 <text x="725" y="65" class="combo tap">]</text>
 </g>
+<g class="combo combopos-12">
+<rect rx="4" ry="4" x="104" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="107" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+</g>
+<g class="combo combopos-13">
+<rect rx="4" ry="4" x="742" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="745" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="745" y="156" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-14">
+<path d="M435,102 l-97,0" class="combo"/>
+<path d="M435,102 l97,0" class="combo"/>
+<rect rx="4" ry="4" x="422" y="82" width="25" height="38" class="combo"/>
+<text x="435" y="102" class="combo tap">
+<tspan x="435" dy="-0.5em">Alt+</tspan><tspan x="435" dy="1.0em">F4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(27, 661)" class="layer-_nav">
@@ -942,6 +979,23 @@ path.combo {
 <rect rx="4" ry="4" x="684" y="14" width="25" height="38" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="687" y="24" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
 </g>
+<g class="combo combopos-6">
+<rect rx="4" ry="4" x="104" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="107" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="4" ry="4" x="742" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="745" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="745" y="156" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-8">
+<path d="M435,102 l-97,0" class="combo"/>
+<path d="M435,102 l97,0" class="combo"/>
+<rect rx="4" ry="4" x="422" y="82" width="25" height="38" class="combo"/>
+<text x="435" y="102" class="combo tap">
+<tspan x="435" dy="-0.5em">Alt+</tspan><tspan x="435" dy="1.0em">F4</tspan>
+</text>
+</g>
 </g>
 </g>
 <g transform="translate(27, 992)" class="layer-_fun">
@@ -1005,9 +1059,11 @@ path.combo {
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-9" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(145, 94)" class="key none keypos-14">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-9" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(145, 94)" class="key keypos-14">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.5em">BT</tspan><tspan x="0" dy="1.0em">NXT</tspan>
+</text>
 </g>
 <g transform="translate(203, 87)" class="key keypos-15">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
@@ -1149,6 +1205,23 @@ path.combo {
 <g class="combo backspace combopos-5">
 <rect rx="4" ry="4" x="684" y="14" width="25" height="38" class="combo backspace"/>
 <use href="#mdi:backspace" xlink:href="#mdi:backspace" x="687" y="24" height="18" width="18.0" class="combo backspace tap glyph mdi:backspace"/>
+</g>
+<g class="combo combopos-6">
+<rect rx="4" ry="4" x="104" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="107" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+</g>
+<g class="combo combopos-7">
+<rect rx="4" ry="4" x="742" y="140" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-shift" xlink:href="#mdi:apple-keyboard-shift" x="745" y="150" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-shift"/>
+<use href="#mdi:gesture-tap-hold" xlink:href="#mdi:gesture-tap-hold" x="745" y="156" height="18" width="18.0" class="combo hold glyph mdi:gesture-tap-hold"/>
+</g>
+<g class="combo combopos-8">
+<path d="M435,102 l-97,0" class="combo"/>
+<path d="M435,102 l97,0" class="combo"/>
+<rect rx="4" ry="4" x="422" y="82" width="25" height="38" class="combo"/>
+<text x="435" y="102" class="combo tap">
+<tspan x="435" dy="-0.5em">Alt+</tspan><tspan x="435" dy="1.0em">F4</tspan>
+</text>
 </g>
 </g>
 </g>
