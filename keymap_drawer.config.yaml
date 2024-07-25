@@ -270,6 +270,11 @@ parse_config:
       tap: $$mdi:minus-circle-outline$$
       type: none
 
+    # actions
+    "&kp LA(F4)":
+      tap: $$nonemdi:close-box-outline$$
+      type: none
+
     # Whitespace
     "&bkspc_del":
       type: backspace
