@@ -13,7 +13,8 @@
 
         cb_del {
             bindings = <&kp DEL>;
-            key-positions = <38 39>;
+            key-positions = <9 8>;
+            layers = <2>;
         };
 
         cb_cntl {
@@ -34,6 +35,7 @@
         cb_bkspc {
             bindings = <&kp BSPC>;
             key-positions = <9 8>;
+            layers = <0 1>;
         };
 
         cb_lbkt {
@@ -92,6 +94,11 @@
             bindings = <&kp LA(F4)>;
             key-positions = <17 18>;
         };
+
+        cb_test_string {
+            bindings = <&kp C>;
+            key-positions = <39 38>;
+        };
     };
 
     keymap {
@@ -119,7 +126,7 @@
             bindings = <
 &none  &none      &kp TILDE  &kp GRAVE  &kp PIPE   &none     &none   &kp HOME   &kp UP    &kp END    &none    &none
 &none  &kp EXCL   &kp AT     &kp POUND  &kp DLLR   &none     &none   &kp LEFT   &kp DOWN  &kp RIGHT  &kp ESC  &none
-&none  &kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none     &none   &kp PG_UP  &trans    &kp PG_DN  &none    &none
+&none  &kp QMARK  &kp CARET  &kp AMPS   &kp PRCNT  &none     &none   &kp PG_UP  &none     &kp PG_DN  &none    &none
                              &none      &trans     &trans    &trans  &sl 3      &none
             >;
         };
