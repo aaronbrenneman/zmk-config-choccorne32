@@ -83,23 +83,22 @@ svg.keymap {
 
     /* from https://coolors.co/palettes/popular/6%20colors */
 
-    --aspar: #679436ff;
-    --alaba: #f3f1e9ff;
-    --lionn: #c0a287ff;
-    --cerul: #3c7a89ff;
-    --charc: #2e4756ff;
-    --gunme: #16262eff;
-    --eggsh: #f4f1deff;
-    --sunst: #f5d6a3ff;
-    --chrcl: #2e4756ff;
-    --blkbn: #2f0601ff;
-    --mgnta: #d14081ff;
-    --thstl: #dcbdcfff;
+    --gunme:	#16262eff;
+    --charc:	#2e4756ff;
+    --blkbn:	#2f0601ff;
+    --cerul:	#3c7a89ff;
+    --aspar:	#679436ff;
+    --lionn:	#c0a287ff;
+    --mgnta:	#d14081ff;
+    --thstl:	#dcbdcfff;
+    --alaba:	#f3f1e9ff;
+    --eggsh:	#f4f1deff;
+    --sunst:	#f5d6a3ff;
 
     /* flipper */
     --color-01: var(--alaba);
     --color-02: var(--lionn);
-    --color-03: var(--aspar);
+    --color-03: var(--blkbn);
     --color-04: var(--cerul);
     --color-05: var(--charc);
     --color-06: var(--sunst);
@@ -118,8 +117,9 @@ svg.keymap {
     --color--text: var(--color-03);
     --color--layer--text: var(--color-04);
     --color--trans--text--tap: var(--color-04);
-    --color--combo--text--tap: var(--color-05);
-    --color--trans--bg: var(--color-06);
+    --color--combo--text--tap: var(--color-04);
+    --color--trans--bg: var(--color-02);
+    --trans-opacity: .99
     --color--key--bg--held: var(--color-07);
 
     /* end of direct colour assignments */
@@ -239,7 +239,7 @@ path.combo {
 
 .trans,
 .none {
-  opacity: 0.8;
+  opacity: var(--trans-opacity);
 }
 .trans {
     --color--key--bg: var(--color--trans--bg);
