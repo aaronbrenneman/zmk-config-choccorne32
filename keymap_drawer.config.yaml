@@ -272,7 +272,7 @@ parse_config:
 
     # actions
     "&kp LA(F4)":
-      tap: $$nonemdi:close-box-outline$$
+      tap: $$mdi:close-box-outline$$
       type: none
 
     # Whitespace
