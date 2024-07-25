@@ -84,10 +84,12 @@ svg.keymap {
     /* from https://coolors.co/palettes/popular/6%20colors */
 
     --gunme:	#16262eff;
+    --drkgr:  #19381fff;
     --charc:	#2e4756ff;
     --blkbn:	#2f0601ff;
     --cerul:	#3c7a89ff;
     --aspar:	#679436ff;
+    --citro:  #bdc667ff;
     --lionn:	#c0a287ff;
     --mgnta:	#d14081ff;
     --thstl:	#dcbdcfff;
@@ -101,7 +103,7 @@ svg.keymap {
     --color-03: var(--blkbn);
     --color-04: var(--cerul);
     --color-05: var(--charc);
-    --color-06: var(--sunst);
+    --color-06: var(--citro);
     --color-07: var(--thstl);
 
     /* === apply colours to keys === */
@@ -118,8 +120,8 @@ svg.keymap {
     --color--layer--text: var(--color-03);
     --color--combo--text--tap: var(--color-03);
     --color--trans--text--tap: var(--color-03);
-    --color--trans--bg: var(--color-02);
-    --trans-opacity: .99
+    --color--trans--bg: var(--color-06);
+    --trans-opacity: .65
     --color--key--bg--held: var(--color-07);
 
     /* end of direct colour assignments */
