@@ -510,7 +510,7 @@ path.combo {
 <path d="M435,232 l52,0" class="combo"/>
 <path d="M435,232 l-52,0" class="combo"/>
 <rect rx="4" ry="4" x="422" y="213" width="25" height="38" class="combo"/>
-<text x="435" y="232" class="combo tap">C</text>
+<text x="435" y="232" class="combo tap">S</text>
 </g>
 </g>
 </g>
@@ -772,7 +772,7 @@ path.combo {
 <path d="M435,232 l52,0" class="combo"/>
 <path d="M435,232 l-52,0" class="combo"/>
 <rect rx="4" ry="4" x="422" y="213" width="25" height="38" class="combo"/>
-<text x="435" y="232" class="combo tap">C</text>
+<text x="435" y="232" class="combo tap">S</text>
 </g>
 </g>
 </g>
@@ -996,7 +996,7 @@ path.combo {
 <path d="M435,232 l52,0" class="combo"/>
 <path d="M435,232 l-52,0" class="combo"/>
 <rect rx="4" ry="4" x="422" y="213" width="25" height="38" class="combo"/>
-<text x="435" y="232" class="combo tap">C</text>
+<text x="435" y="232" class="combo tap">S</text>
 </g>
 </g>
 </g>
@@ -1219,7 +1219,7 @@ path.combo {
 <path d="M435,232 l52,0" class="combo"/>
 <path d="M435,232 l-52,0" class="combo"/>
 <rect rx="4" ry="4" x="422" y="213" width="25" height="38" class="combo"/>
-<text x="435" y="232" class="combo tap">C</text>
+<text x="435" y="232" class="combo tap">S</text>
 </g>
 </g>
 </g>
