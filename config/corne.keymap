@@ -96,7 +96,7 @@
         };
 
         cb_test_string {
-            bindings = <&kp S &kp W &kp I &kp T &kp C &kp H>;
+            bindings = <&kp S + &kp H>;
             key-positions = <39 38>;
         };
     };
