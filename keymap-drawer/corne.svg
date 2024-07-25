@@ -83,19 +83,19 @@ svg.keymap {
 
     /* from https://coolors.co/palettes/popular/6%20colors */
 
-    --gunme:	#16262eff;
-    --drkgr:  #19381fff;
-    --charc:	#2e4756ff;
-    --blkbn:	#2f0601ff;
-    --cerul:	#3c7a89ff;
-    --aspar:	#679436ff;
-    --citro:  #bdc667ff;
-    --lionn:	#c0a287ff;
-    --mgnta:	#d14081ff;
-    --thstl:	#dcbdcfff;
-    --alaba:	#f3f1e9ff;
-    --eggsh:	#f4f1deff;
-    --sunst:	#f5d6a3ff;
+    --gunme: #16262eff;
+    --drkgr: #19381fff;
+    --charc: #2e4756ff;
+    --blkbn: #2f0601ff;
+    --cerul: #3c7a89ff;
+    --aspar: #679436ff;
+    --citro: #bdc667ff;
+    --lionn: #c0a287ff;
+    --mgnta: #d14081ff;
+    --thstl: #dcbdcfff;
+    --alaba: #f3f1e9ff;
+    --eggsh: #f4f1deff;
+    --sunst: #f5d6a3ff;
 
     /* flipper */
     --color-01: var(--alaba);
@@ -109,19 +109,19 @@ svg.keymap {
     /* === apply colours to keys === */
 
     /* direct colour assignments */
+    --key-opacity: .65
     --color--bg: transparent;
     --color--none--bg: transparent;
     --color--key--text--shifted: transparent;
-
+    
     --color--key--bg: var(--color-01);
-    --color--key--border: var(--color-01);
+    --color--key--border: var(--color-01); 
     --color--combo--bg: var(--color-02);
     --color--text: var(--color-03);
-    --color--layer--text: var(--color-03);
-    --color--combo--text--tap: var(--color-03);
     --color--trans--text--tap: var(--color-03);
+    --color--combo--text--tap: var(--color-03);
+    --color--layer--text: var(--color-06);
     --color--trans--bg: var(--color-06);
-    --trans-opacity: .65
     --color--key--bg--held: var(--color-07);
 
     /* end of direct colour assignments */
@@ -204,7 +204,7 @@ rect.combo {
 /* color accent for held keys */
 rect.held, rect.combo.held {
     fill: var(--color--key--bg--held);
-    opacity: 0.45
+    opacity: var(--key-opacity);
 }
 
 /* combos     */
@@ -241,7 +241,7 @@ path.combo {
 
 .trans,
 .none {
-  opacity: var(--trans-opacity);
+  opacity: var(--key-opacity);
 }
 .trans {
     --color--key--bg: var(--color--trans--bg);
