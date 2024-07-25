@@ -119,7 +119,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:page-first$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:page-last$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -175,8 +175,9 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
-- p: [38, 39]
+- p: [9, 8]
   k: $$mdi:backspace-reverse-outline$$
+  l: [_nav]
 - p: [26, 27]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [38, 37]
@@ -189,6 +190,7 @@ combos:
   arc_scale: 2.03
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [_bas, _num]
 - p: [2, 14]
   k: '['
   l: [_bas, _num]
@@ -218,3 +220,5 @@ combos:
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: Alt+ F4
+- p: [39, 38]
+  k: C
