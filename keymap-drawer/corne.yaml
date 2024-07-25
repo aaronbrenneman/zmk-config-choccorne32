@@ -219,6 +219,6 @@ combos:
 - p: [33, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
-  k: {t: '$$nonemdi:close-box-outline$$', type: none}
+  k: {t: '$$mdi:close-box-outline$$', type: none}
 - p: [39, 38]
   k: S +
