@@ -134,7 +134,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - BT CLR
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F4
@@ -144,9 +144,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - BT NXT
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
   - F1
@@ -176,6 +176,9 @@ combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
 - p: [9, 8]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [_bas, _num]
+- p: [9, 8]
   k: $$mdi:backspace-reverse-outline$$
   l: [_nav]
 - p: [26, 27]
@@ -188,35 +191,32 @@ combos:
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [9, 8]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [_bas, _num]
-- p: [2, 14]
-  k: '['
-  l: [_bas, _num]
-- p: [3, 15]
-  k: (
-  l: [_bas, _num]
 - p: [4, 16]
   k: '{'
-  l: [_bas, _num]
-- p: [7, 19]
-  k: '}'
-  l: [_bas, _num]
-- p: [8, 20]
-  k: )
   l: [_bas, _num]
 - p: [9, 21]
   k: ']'
   l: [_bas, _num]
-- p: [13, 2]
-  k: Q
-  l: [_bas]
-  a: left
-  o: -0.5
+- p: [2, 14]
+  k: '['
+  l: [_bas, _num]
+- p: [7, 19]
+  k: '}'
+  l: [_bas, _num]
+- p: [3, 15]
+  k: (
+  l: [_bas, _num]
+- p: [8, 20]
+  k: )
+  l: [_bas, _num]
 - p: [26, 25]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [33, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
+- p: [13, 2]
+  k: Q
+  l: [_bas]
+  a: left
+  o: -0.5
