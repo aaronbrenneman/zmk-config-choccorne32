@@ -81,7 +81,7 @@
         };
 
         cb_shiftl {
-            bindings = <&kp LSHFT>;
+            bindings = <&sk LSHFT>;
             key-positions = <26 25>;
         };
 
@@ -95,10 +95,6 @@
             key-positions = <17 18>;
         };
 
-        cb_test_string {
-            bindings = <&kp C>;
-            key-positions = <39 38>;
-        };
     };
 
     keymap {
