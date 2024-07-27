@@ -32,6 +32,16 @@
             key-positions = <40 39>;
         };
 
+        cb_shiftl {
+            bindings = <&sk LSHFT>;
+            key-positions = <26 25>;
+        };
+
+        cb_shiftr {
+            bindings = <&sk RSHFT>;
+            key-positions = <33 34>;
+        };
+
         cb_bkspc {
             bindings = <&kp BSPC>;
             key-positions = <9 8>;
@@ -44,28 +54,28 @@
             key-positions = <2 14>;
         };
 
-        cb_lpara {
-            bindings = <&kp LPAR>;
-            layers = <0 1>;
-            key-positions = <3 15>;
-        };
-
-        cb_lbrc {
-            bindings = <&kp LBRC>;
-            layers = <0 1>;
-            key-positions = <4 16>;
-        };
-
         cb_rbkt {
             bindings = <&kp RBRC>;
             layers = <0 1>;
             key-positions = <7 19>;
         };
 
+        cb_lpara {
+            bindings = <&kp LPAR>;
+            layers = <0 1>;
+            key-positions = <3 15>;
+        };
+
         cb_rpara {
             bindings = <&kp RPAR>;
             layers = <0 1>;
             key-positions = <8 20>;
+        };
+
+        cb_lbrc {
+            bindings = <&kp LBRC>;
+            layers = <0 1>;
+            key-positions = <4 16>;
         };
 
         cb_rbrc {
@@ -78,16 +88,6 @@
             bindings = <&kp Q>;
             layers = <0>;
             key-positions = <13 2>;
-        };
-
-        cb_shiftl {
-            bindings = <&kp LSHFT>;
-            key-positions = <26 25>;
-        };
-
-        cb_shiftr {
-            bindings = <&sk RSHFT>;
-            key-positions = <33 34>;
         };
 
         cb_altf4 {
@@ -133,8 +133,8 @@
 
         _fun {
             bindings = <
-&none  &none  &none       &none         &bt BT_CLR    &none     &none    &kp F4  &kp F5  &kp F6  &none    &none
-&none  &none  &bt BT_NXT  &bt BT_SEL 1  &bt BT_SEL 0  &none     &kp F11  &kp F1  &kp F2  &kp F3  &kp F10  &none
+&none  &none  &none       &none         &none         &none     &none    &kp F4  &kp F5  &kp F6  &none    &none
+&none  &none  &none       &none         &none         &none     &kp F11  &kp F1  &kp F2  &kp F3  &kp F10  &none
 &none  &none  &none       &none         &none         &none     &kp F12  &kp F7  &kp F8  &kp F9  &none    &none
                           &none         &trans        &trans    &trans   &trans  &none
             >;
