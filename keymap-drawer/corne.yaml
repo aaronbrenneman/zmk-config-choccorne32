@@ -220,7 +220,7 @@ combos:
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
   l: [_bas]
 - p: [29, 30]
-  k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
+  k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:backup-restore$$'}
   l: [_bas]
 - p: [13, 2]
   k: Q
