@@ -188,27 +188,23 @@ combos:
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [26, 25]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
-- p: [33, 34]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [_bas, _num]
 - p: [2, 14]
   k: '['
   l: [_bas, _num]
-- p: [7, 19]
-  k: '}'
-  l: [_bas, _num]
 - p: [3, 15]
   k: (
   l: [_bas, _num]
-- p: [8, 20]
-  k: )
-  l: [_bas, _num]
 - p: [4, 16]
   k: '{'
+  l: [_bas, _num]
+- p: [7, 19]
+  k: '}'
+  l: [_bas, _num]
+- p: [8, 20]
+  k: )
   l: [_bas, _num]
 - p: [9, 21]
   k: ']'
@@ -218,7 +214,11 @@ combos:
   l: [_bas]
   a: left
   o: -0.5
+- p: [26, 25]
+  k: $$mdi:apple-keyboard-shift$$
+- p: [33, 34]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
 - p: [39, 38]
-  k: S
+  k: C
