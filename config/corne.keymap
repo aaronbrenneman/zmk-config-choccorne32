@@ -95,8 +95,8 @@
             key-positions = <17 18>;
         };
 
-        cb_test_string {
-            bindings = <&kp S + &kp H>;
+        cb_next {
+            bindings = <&kp K_NEXT>;
             key-positions = <39 38>;
         };
     };
