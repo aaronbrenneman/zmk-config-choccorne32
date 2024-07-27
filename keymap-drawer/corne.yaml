@@ -175,6 +175,7 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
+  l: [_bas]
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [_bas, _num]
@@ -211,10 +212,13 @@ combos:
   l: [_bas, _num]
 - p: [26, 25]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num]
 - p: [33, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num]
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
+  l: [_bas]
 - p: [13, 2]
   k: Q
   l: [_bas]
