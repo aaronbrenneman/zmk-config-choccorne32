@@ -273,7 +273,7 @@ parse_config:
     # actions
     "&kp LA(F4)":
       tap: $$mdi:close-box-outline$$
-      type: none
+      type: $$mdi:close-box-outline$$
 
     # Whitespace
     "&bkspc_del":
