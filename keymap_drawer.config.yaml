@@ -236,6 +236,7 @@ draw_config:
 parse_config:
   mark_alternate_layer_activators: true
   sticky_label: $$mdi:gesture-tap-hold$$
+  toggle_label: $$mdi:backup-restore$$
   trans_legend:
     tap: $$mdi:transfer$$
     type: trans
