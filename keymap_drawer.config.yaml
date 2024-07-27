@@ -274,6 +274,9 @@ parse_config:
     "&kp LA(F4)":
       tap: $$mdi:close-box-outline$$
       type: $$mdi:close-box-outline$$
+    "&cb_alttab":
+      tap: $$mdi:minus-circle-outline$$
+      type: $$mdi:progress-download$$
 
     # Whitespace
     "&bkspc_del":
