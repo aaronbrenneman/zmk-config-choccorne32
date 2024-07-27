@@ -221,4 +221,4 @@ combos:
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: none}
 - p: [39, 38]
-  k: S +
+  k: NEXT
