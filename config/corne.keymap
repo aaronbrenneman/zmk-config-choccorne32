@@ -93,6 +93,12 @@
             key-positions = <17 18>;
         };
 
+        cb_alttab {
+            bindings = <&kt LALT  &kp TAB>;
+            layers = <0>;
+            key-positions = <17 18>;
+        };
+
         cb_q {
             bindings = <&kp Q>;
             layers = <0>;
