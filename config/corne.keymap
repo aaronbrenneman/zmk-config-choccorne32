@@ -8,6 +8,7 @@
 
         cb_tab {
             bindings = <&kp TAB>;
+            layers = <0>;
             key-positions = <2 3>;
         };
 
@@ -76,16 +77,19 @@
 
         cb_shiftl {
             bindings = <&sk LSHFT>;
+            layers = <0 1>;
             key-positions = <26 25>;
         };
 
         cb_shiftr {
             bindings = <&sk RSHFT>;
+            layers = <0 1>;
             key-positions = <33 34>;
         };
 
         cb_altf4 {
             bindings = <&kp LA(F4)>;
+            layers = <0>;
             key-positions = <17 18>;
         };
 
