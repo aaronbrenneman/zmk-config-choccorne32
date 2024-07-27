@@ -96,7 +96,7 @@
         cb_alttab {
             bindings = <&kt LALT>, <&kp TAB>;
             layers = <0>;
-            key-positions = <17 18>;
+            key-positions = <29 30>;
         };
 
         cb_q {
