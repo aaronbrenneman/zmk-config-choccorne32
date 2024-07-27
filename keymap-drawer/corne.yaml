@@ -215,10 +215,8 @@ combos:
   a: left
   o: -0.5
 - p: [26, 25]
-  k: $$mdi:apple-keyboard-shift$$
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [33, 34]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
-- p: [39, 38]
-  k: C
