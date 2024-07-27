@@ -500,6 +500,13 @@ path.combo {
 <use href="#mdi:close-box-outline" xlink:href="#mdi:close-box-outline" x="426" y="92" height="18" width="18.0" class="combo $$mdi:close-box-outline$$ tap glyph mdi:close-box-outline"/>
 </g>
 <g class="combo combopos-14">
+<path d="M435,102 l-97,0" class="combo"/>
+<path d="M435,102 l97,0" class="combo"/>
+<rect rx="4" ry="4" x="422" y="82" width="25" height="38" class="combo"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="426" y="92" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-option"/>
+<text x="435" y="116" class="combo hold"><tspan style="font-size: 83%">toggle</tspan></text>
+</g>
+<g class="combo combopos-15">
 <path d="M86,72 v30 a6.0,6.0 0 0 0 6.0,6.0 h-24" class="combo"/>
 <path d="M86,72 v-30 a6.0,6.0 0 0 1 6.0,-6.0 h34" class="combo"/>
 <rect rx="4" ry="4" x="74" y="54" width="25" height="38" class="combo"/>

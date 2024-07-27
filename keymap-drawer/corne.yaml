@@ -219,6 +219,9 @@ combos:
 - p: [17, 18]
   k: {t: '$$mdi:close-box-outline$$', type: '$$mdi:close-box-outline$$'}
   l: [_bas]
+- p: [17, 18]
+  k: {t: '$$mdi:apple-keyboard-option$$', h: toggle}
+  l: [_bas]
 - p: [13, 2]
   k: Q
   l: [_bas]
