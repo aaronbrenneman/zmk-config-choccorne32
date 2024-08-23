@@ -1,1 +1,1 @@
-![ooo](keymap-drawer/corne.svg)
+![corne](keymap-drawer/corne.svg)
