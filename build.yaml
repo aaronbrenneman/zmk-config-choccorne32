@@ -20,7 +20,7 @@
 include:
   - board: nice_nano_v2
     shield: corne_left
-    artifact-name: sinister
+    artifact-name: corne_sinister
   - board: nice_nano_v2
     shield: corne_right
-    artifact-name: auspicious
+    artifact-name: corne_auspicious
