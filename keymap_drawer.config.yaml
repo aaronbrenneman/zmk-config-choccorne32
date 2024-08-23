@@ -239,23 +239,6 @@ parse_config:
     type: trans
 
   raw_binding_map:
-    # Layers
-    "&smart_num L2 0":
-      shifted: $$mdi:alpha-w-box$$
-      tap: L2
-      hold: $$mdi:gesture-tap-hold$$
-    "&csl Fn":
-      tap: Fn
-      hold: $$mdi:close-box$$
-    "&csl L2":
-      tap: L2
-      hold: $$mdi:close-box$$
-    "&cmo Fn":
-      tap: $$mdi:close-box$$
-      hold: Fn
-    "&cmo L2":
-      tap: $$mdi:close-box$$
-      hold: L2
 
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
@@ -273,39 +256,6 @@ parse_config:
       type: backspace
       tap: $$mdi:backspace$$
       shifted: $$mdi:backspace-reverse-outline$$
-
-    # Bluetooth
-    "&bt BT_SEL 0":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 1
-    "&bt BT_SEL 1":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 2
-    "&bt BT_SEL 2":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 3
-    "&bt BT_SEL 3":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 4
-    "&bt BT_SEL 4":
-      shifted: $$mdi:bluetooth-connect$$
-      tap: ""
-      hold: 5
-    "&out OUT_TOG":
-      shifted: $$mdi:usb$$
-      tap: $$mdi:toggle-switch$$
-      hold: $$mdi:bluetooth$$
-
-    # Reset
-    "&sys_reset":
-      type: bootloader
-      tap: $$mdi:backup-restore$$
-    "&bootloader":
-      tap: $$mdi:progress-download$$
 
   # ZMK
   zmk_keycode_map:
