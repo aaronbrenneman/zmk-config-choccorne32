@@ -218,8 +218,9 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
-- p: [38, 39]
+- p: [9, 8]
   k: $$mdi:backspace-reverse-outline$$
+  l: [_nav]
 - p: [26, 27]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [38, 37]
@@ -232,6 +233,7 @@ combos:
   arc_scale: 2.03
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [_bas, _num]
 - p: [2, 14]
   k: {t: '[', s: '{'}
   l: [_bas, _num]
@@ -250,7 +252,7 @@ combos:
 - p: [9, 21]
   k: {t: ']', s: '}'}
   l: [_bas, _num]
-- p: [13, 22]
+- p: [1, 12]
   k: Q
   l: [_bas]
   a: left
