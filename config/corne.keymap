@@ -81,7 +81,12 @@
         cb_q {
             bindings = <&kp Q>;
             layers = <0>;
-            key-positions = <1 12>;
+            key-positions = <2 13>;
+        };
+
+        cb_alt.f4 {
+            bindings = <&kp LA(F4)>;
+            key-positions = <17 18>;
         };
     };
 
