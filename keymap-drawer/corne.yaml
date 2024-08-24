@@ -218,6 +218,7 @@ layers:
 combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
+  l: [_bas, _num, _nav]
 - p: [9, 8]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [_bas, _num]
@@ -226,14 +227,18 @@ combos:
   l: [_nav]
 - p: [26, 27]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num, _nav, _fun]
 - p: [32, 33]
   k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num, _nav, _fun]
 - p: [38, 37]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num, _nav, _fun]
   a: bottom
   arc_scale: 2.03
 - p: [40, 39]
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
+  l: [_bas, _num, _nav, _fun]
   a: bottom
   arc_scale: 2.03
 - p: [3, 15]
@@ -261,3 +266,4 @@ combos:
   o: -0.5
 - p: [17, 18]
   k: Alt+ F4
+  l: [_bas, _num]
