@@ -219,10 +219,15 @@ combos:
 - p: [2, 3]
   k: $$mdi:keyboard-tab$$
 - p: [9, 8]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [_bas, _num]
+- p: [9, 8]
   k: $$mdi:backspace-reverse-outline$$
   l: [_nav]
 - p: [26, 27]
   k: {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:gesture-tap-hold$$'}
+- p: [32, 33]
+  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
 - p: [38, 37]
   k: {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
@@ -231,23 +236,20 @@ combos:
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [9, 8]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [_bas, _num]
 - p: [2, 14]
   k: {t: '[', s: '{'}
-  l: [_bas, _num]
-- p: [3, 15]
-  k: (
-  l: [_bas, _num]
-- p: [4, 16]
-  k: '{'
   l: [_bas, _num]
 - p: [7, 19]
   k: '}'
   l: [_bas, _num]
+- p: [3, 15]
+  k: (
+  l: [_bas, _num]
 - p: [8, 20]
   k: )
+  l: [_bas, _num]
+- p: [4, 16]
+  k: '{'
   l: [_bas, _num]
 - p: [9, 21]
   k: {t: ']', s: '}'}
@@ -257,5 +259,3 @@ combos:
   l: [_bas]
   a: left
   o: -0.5
-- p: [32, 33]
-  k: {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
