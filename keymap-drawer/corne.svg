@@ -1108,7 +1108,7 @@ path.combo {
 <g transform="translate(783, 167)" class="key keypos-34">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key"/>
 <a href="#gam">
-<text x="0" y="0" class="key tap layer-activator">gam</text>
+<text x="0" y="0" class="key tap layer-activator">_gam</text>
 </a><text x="0" y="23" class="key hold"><tspan style="font-size: 83%">toggle</tspan></text>
 </g>
 <g transform="translate(841, 167)" class="key none keypos-35">
@@ -1177,8 +1177,8 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(27, 1323)" class="layer-gam">
-<text x="0" y="18" class="label" id="gam">gam</text>
+<g transform="translate(27, 1323)" class="layer-_gam">
+<text x="0" y="18" class="label" id="gam">_gam</text>
 <g transform="translate(0, 35)">
 <g transform="translate(29, 51)" class="key none keypos-0">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
@@ -1316,9 +1316,9 @@ path.combo {
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
 <use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-9" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
 </g>
-<g transform="translate(783, 167)" class="key none keypos-34">
-<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
-<use href="#mdi:minus-circle-outline" xlink:href="#mdi:minus-circle-outline" x="-9" y="-9" height="18" width="18.0" class="key none tap glyph mdi:minus-circle-outline"/>
+<g transform="translate(783, 167)" class="key trans keypos-34">
+<rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-9" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(841, 167)" class="key none keypos-35">
 <rect rx="4" ry="4" x="-27" y="-27" width="54" height="54" class="key none"/>
