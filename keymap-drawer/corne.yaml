@@ -254,8 +254,10 @@ combos:
 - p: [9, 21]
   k: '}'
   l: [_bas, _num]
-- p: [1, 12]
+- p: [2, 13]
   k: Q
   l: [_bas]
   a: left
   o: -0.5
+- p: [17, 18]
+  k: Alt+ F4
