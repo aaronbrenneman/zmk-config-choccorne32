@@ -45,25 +45,25 @@
         cb_lbkt {
             bindings = <&kp LBKT>;
             layers = <0 1>;
-            key-positions = <4 16>;
+            key-positions = <3 15>;
         };
 
         cb_rbkt {
             bindings = <&kp RIGHT_BRACKET>;
             layers = <0 1>;
-            key-positions = <7 19>;
+            key-positions = <8 20>;
         };
 
         cb_lpara {
             bindings = <&kp LPAR>;
             layers = <0 1>;
-            key-positions = <3 15>;
+            key-positions = <4 16>;
         };
 
         cb_rpara {
             bindings = <&kp RPAR>;
             layers = <0 1>;
-            key-positions = <8 20>;
+            key-positions = <7 19>;
         };
 
         cb_lbrc {
