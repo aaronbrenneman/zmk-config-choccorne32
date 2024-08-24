@@ -38,18 +38,18 @@
         };
 
         cb_alt {
-            bindings = <&sk RALT>;
+            bindings = <&sk LALT>;
             key-positions = <40 39>;
         };
 
         cb_lbkt {
             bindings = <&kp LBKT>;
             layers = <0 1>;
-            key-positions = <2 14>;
+            key-positions = <4 16>;
         };
 
         cb_rbkt {
-            bindings = <&kp RBRC>;
+            bindings = <&kp RIGHT_BRACKET>;
             layers = <0 1>;
             key-positions = <7 19>;
         };
@@ -69,11 +69,11 @@
         cb_lbrc {
             bindings = <&kp LBRC>;
             layers = <0 1>;
-            key-positions = <4 16>;
+            key-positions = <2 14>;
         };
 
         cb_rbrc {
-            bindings = <&kp RBKT>;
+            bindings = <&kp RIGHT_BRACE>;
             layers = <0 1>;
             key-positions = <9 21>;
         };
@@ -83,7 +83,6 @@
             layers = <0>;
             key-positions = <1 12>;
         };
-
     };
 
     keymap {
