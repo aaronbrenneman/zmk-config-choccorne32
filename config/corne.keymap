@@ -8,6 +8,7 @@
         cb_tab {
             bindings = <&kp TAB>;
             key-positions = <2 3>;
+            layers = <0 1 2>;
         };
 
         cb_bkspc {
@@ -25,21 +26,25 @@
         cb_cntl {
             bindings = <&sk LCTRL>;
             key-positions = <26 27>;
+            layers = <0 1 2 3>;
         };
 
         cb_rshift {
             bindings = <&sk RSHIFT>;
             key-positions = <32 33>;
+            layers = <0 1 2 3>;
         };
 
         cb_gui {
             bindings = <&sk LGUI>;
             key-positions = <38 37>;
+            layers = <0 1 2 3>;
         };
 
         cb_alt {
             bindings = <&sk LALT>;
             key-positions = <40 39>;
+            layers = <0 1 2 3>;
         };
 
         cb_lbkt {
@@ -87,6 +92,7 @@
         cb_alt.f4 {
             bindings = <&kp LA(F4)>;
             key-positions = <17 18>;
+            layers = <0 1>;
         };
     };
 
