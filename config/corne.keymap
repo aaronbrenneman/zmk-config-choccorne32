@@ -12,7 +12,8 @@
 
         cb_del {
             bindings = <&kp DEL>;
-            key-positions = <38 39>;
+            key-positions = <9 8>;
+            layers = <2>;
         };
 
         cb_cntl {
@@ -33,6 +34,7 @@
         cb_bkspc {
             bindings = <&kp BSPC>;
             key-positions = <9 8>;
+            layers = <0 1>;
         };
 
         cb_lbkt {
@@ -74,7 +76,7 @@
         cb_q {
             bindings = <&kp Q>;
             layers = <0>;
-            key-positions = <13 22>;
+            key-positions = <1 12>;
         };
 
         cb_rshift {
@@ -124,9 +126,9 @@
 
         _gam {
             bindings = <
-&none  &none  &kp Q  &kp W  &kp E   &kp R     &kp ESC  &none   &none  &none  &none  &none
-&none  &none  &kp A  &kp S  &kp D   &kp F     &none    &kp P   &kp O  &kp L  &kp K  &none
-&none  &none  &kp Z  &kp X  &kp C   &kp V     &none    &none   &none  &none  &trans &none
+&none  &none  &kp Q  &kp W  &kp E   &kp R     &kp ESC  &none   &none  &none  &none   &none
+&none  &none  &kp A  &kp S  &kp D   &kp F     &none    &kp P   &kp O  &kp L  &kp K   &none
+&none  &none  &kp Z  &kp X  &kp C   &kp V     &none    &none   &none  &none  &trans  &none
                      &none  &trans  &trans    &trans   &trans  &none
             >;
         };
