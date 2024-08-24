@@ -236,16 +236,16 @@ combos:
   k: {t: '$$mdi:apple-keyboard-option$$', h: '$$mdi:gesture-tap-hold$$'}
   a: bottom
   arc_scale: 2.03
-- p: [4, 16]
+- p: [3, 15]
   k: {t: '[', s: '{'}
   l: [_bas, _num]
-- p: [7, 19]
+- p: [8, 20]
   k: {t: ']', s: '}'}
   l: [_bas, _num]
-- p: [3, 15]
+- p: [4, 16]
   k: (
   l: [_bas, _num]
-- p: [8, 20]
+- p: [7, 19]
   k: )
   l: [_bas, _num]
 - p: [2, 14]
